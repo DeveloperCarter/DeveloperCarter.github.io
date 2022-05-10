@@ -131,6 +131,7 @@ hr {
   width: 50%;
 }
 #navtoggle {
+  margin: 0 auto;
   position: fixed;
   right: 10px;
   color:#E83E2A;
@@ -153,6 +154,7 @@ hr {
 }
 
 #navbar{
+  margin: 0 auto;
   position: fixed;
   background-color: #0A192F;
 }

@@ -10,12 +10,12 @@ const NavBar = (props) => {
     return(
     <div>
         <Navbar id="navbar" dark>
-            <NavbarBrand id="navbartitle" className="brand" href="/"><img src={Home}></img></NavbarBrand>
             <NavbarToggler id="navtoggle" className="navtoggle" onClick={() => setOpen(!open)}/>
+            <NavbarBrand id="navbartitle" className="brand" href="/"><img src={Home}></img></NavbarBrand>
             <Collapse navbar isOpen={open}>
                 <Nav navbar>
                     <NavItem>
-                        <NavLink id="links"  href="#aboutme">About Me</NavLink>
+                        <NavLink id="links" href="#aboutme">About Me</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink id="links" href="#projects">Projects</NavLink>
