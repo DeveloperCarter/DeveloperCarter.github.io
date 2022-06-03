@@ -3,6 +3,7 @@ import {Nav, NavbarToggler, NavbarBrand, Navbar, Collapse, NavItem, NavLink} fro
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Resume from "./Resume.pdf";
 import Home from './home.png'
+import styles from "./NavBar.css";
 //Navbar, which brings you to certain portions of the page and also links to my resume.
 const NavBar = (props) => {
     let def = false;

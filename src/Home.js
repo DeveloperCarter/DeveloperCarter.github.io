@@ -2,6 +2,7 @@ import React from "react";
 import Me from './me.png';
 import Warbler from './warbler.PNG'
 import Weatherly from './weatherlyright.PNG'
+import Cards from "./Cards"
 //Home page, shows main content
 const Home = () => (
     <div class="home">

@@ -1,16 +1,33 @@
 body {
   background-color: #0A192F;
 }
+.home {
+  padding-top: 10rem;
+}
 section {
   padding-bottom: 100px;
 }
+.card{
+  border: none;
+  background-color: #112240;
+  height: 75;
+  padding: 0px 0px 0px 0px;
+}
+.cimg{
+  padding: 15px;
+}
+
+.cgroup{
+  padding: 0px 0px 0px 0px;
+}
 .bodycon {
-  padding-top: 300px;
+  padding-top: 11rem;
   padding-bottom: 100px;
   margin: auto;
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 100%;
+  padding: 2rem;
 }
 .fa {
   display: inline-block;
@@ -26,7 +43,8 @@ section {
   width: 60%;
 }
 .pimg {
-  max-height: 450px;
+  width: 100%;
+  height: auto;
 }
 #licon{
   display:flex;
@@ -59,8 +77,8 @@ padding-top: 25px;
 #pictureofme {
   margin-left: auto;
   border-radius: 10px;
-  max-height: 20rem;
-  max-width: 20rem;
+  height: auto;
+  width: 100%;
 }
 
 .aboutme{
@@ -80,26 +98,14 @@ padding-top: 25px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-#logo1{
-position: fixed;
-bottom: 0px;
-}
-#logo2{
-  position: fixed;
-bottom: 0px;
-left: 75px;
-}
-#logo3{
-  position: fixed;
-bottom: 0px;
-left: 150px;
-}
+
 #email {
   font-family: 'Source Sans Pro', sans-serif;
   position: fixed;
-  bottom: 0px;
-  right: 20px;
+  bottom: 60px;
+  right: 5px;
   color: #E83E2A;
+  transform: rotate(90deg);
 }
 
 a{
@@ -128,13 +134,17 @@ hr {
 }
 
 .amcon {
-  width: 50%;
+  width: 100%;
 }
 #navtoggle {
   margin: 0 auto;
   position: fixed;
   right: 10px;
   color:#E83E2A;
+}
+
+#logo1 {
+  size: 200px;
 }
 
 #whatido{
@@ -154,9 +164,10 @@ hr {
 }
 
 #navbar{
+  width: 100%;
+  background-color:#0A192F;
   margin: 0 auto;
   position: fixed;
-  background-color: #0A192F;
 }
 
 #name {
@@ -176,6 +187,32 @@ hr {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+@media (min-width: 600px) {
+  .bodycon {
+    width: 50%;
+  }
+  #sec1am {
+    width: 100%;
+  }
+  #sec2am {
+    width: 100%;
+  }
+  #logo1{
+    position: fixed;
+    bottom: 0px;
+    }
+    #logo2{
+      position: fixed;
+    bottom: 0px;
+    left: 75px;
+    }
+    #logo3{
+      position: fixed;
+    bottom: 0px;
+    left: 150px;
+    }
 }
 
 @media (prefers-reduced-motion: no-preference) {
